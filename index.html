@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Shopping Cart </title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--navbar-->
+      <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand">SHOPPING CART</a>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+      </header>  
+      <!-- main section -->
+      <main>
+          <!--products-->
+        <section id="items">
+            <!--first product-->
+            <div class='Item'> 
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/17fc867b5e4a4a489535ac6300bad9bb_9366/Fluidflow_2.0_Shoes_White_FY5961_01_standard.jpg" alt="iphone 12">
+                <div class="info">
+                    <p class="description"> 
+                        Adidas Fluidflow 2.0 Shoes | Adidas <br>
+                        Pacific Blue
+                    </p>
+                    <div class="quantity">     
+                        <button class="minus-btn btn btn-outline-light">
+                            -
+                        </button>
+                        <input type="text" class="Quant" value=" 1">
+                        <button class="plus-btn btn btn-outline-light">
+                            +
+                        </button>
+                    </div>
+                    <p class="price"> 1379.00 </p>
+                </div>
+                <button class="like"> <i class="fa fa-heart fa-2x" ></i> </button>
+                <button class="delete"> X </button>
+            </div>
+            <!--second product -->
+            <div class="Item">
+                <img src="https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/42a3ce00-f2cf-4eb1-9a9d-d6594bb4259e/air-zoom-pegasus-38-womens-running-shoe-gg8GBK.png" alt="adidas running shoes">
+                <div class="info">
+                    <p class="description"> 
+                        Pegasus Nike Zoom Air Shoes| Nike<br>
+                        Baby Pink
+                    </p>
+                    <div class="quantity">     
+                        <button class="minus-btn btn btn-outline-light">
+                            -
+                        </button>
+                        <input type="text" class="Quant" value="1"> 
+                        <button class="plus-btn btn btn-outline-light">
+                            +
+                        </button>
+                    </div>
+                    <p class="price"> 176.80 </p>
+                </div>
+                <button class="like"> <i class="fa fa-heart fa-2x "></i> </button>
+                <button class="delete"> X </button>
+            </div>
+            <!--third product-->
+            <div class="Item">
+                <img src="https://assets.reebok.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/e766e993884e4e81a478ab1300dc2666_9366/forever-floatride-energy-2-womens-running-shoes.jpg" alt="i-watch">
+                <div class="info">
+                    <p class="description"> 
+                        Reebok pronation shoes | Reebok <br>
+                        Grey
+                        </p>
+                    <div class="quantity"> 
+                    <button class="minus-btn btn btn-outline-light">
+                        -
+                    </button>
+                    <input type="text" class="Quant" value=" 1">
+                    <button class="plus-btn btn btn-outline-light">
+                        +
+                    </button>
+                </div>
+                <p class="price"> 249.00  </p>
+                </div>
+                <button class="like"> <i class="fa fa-heart fa-2x"></i> </button>
+                <button class="delete"> X </button>
+            </div>
+        </section>
+        <!--total price-->
+        <div id="total-price">
+            <p>Total Price: </p>
+            <input type="text" id="finalPrice" value="1804">
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            © 2021.Hnainia Nissrine.
+        </div>
+    </footer> 
+    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background: #e2c0d1;
+    font-family: "Lato";
+}
+header {
+    position: sticky;
+    top: 0;
+}
+main {
+    margin: 5% 10%;
+    padding: 20px;
+}
+.Item {
+    background: #c2a7b4;
+    border-radius: 10px;
+    box-shadow: 4px 8px 10px #96818b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 50px;
+    width: 65vw;
+    height: 40vh;
+}
+.Item > img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+.info {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+i {
+    color: rgb(226, 192, 209)
+}
+button {
+    border: none;
+    background-color: #c2a7b4;
+    outline: none;
+}
+.quantity > input {
+    width:30px;
+    padding: 5px;
+    background-color: #c2a7b4;
+    border: none; 
+}
+#total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+#total-price > input {
+    border: none;
+    background-color: #e2c0d1;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#total-price > input:focus{
+    outline: none;
+}
+.footer {
+    width: 65%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #96818b;
+}
